@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li {
+    padding: 18px;
+}
+
+@font-face {
+    font-family:norwester;
+    src: url(../src/type_text/norwester.otf)
+}
+@font-face {
+    font-family:poppins;
+    src: url(../src/type_text/Poppins-Light.otf);
+}
+
+.title{
+    font-family: norwester;
+}
+.text{
+    font-family:poppins;
+}
+
+h1{
+    font-family: norwester;
+}
+p{
+    font-family:poppins;
+}
